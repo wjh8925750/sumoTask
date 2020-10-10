@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration>
-
     <input>
         <net-file value="task1.net.xml"/>
         <route-files value="flow.xml"/>
@@ -18,6 +17,5 @@
         <verbose value="true"/>
         <no-step-log value="true"/>
     </report>
-
 </configuration>
 

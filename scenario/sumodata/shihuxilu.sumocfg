@@ -5,6 +5,7 @@
     <input>
         <net-file value="shihuxilu.net.xml"/>
         <route-files value="shihuxilu_flow.xml"/>
+		<additional-files value="detector.add.xml"/>
     </input>
 
     <step-length value="0.1"/>

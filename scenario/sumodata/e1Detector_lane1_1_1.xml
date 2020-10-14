@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/10/20 14:42:33 by Eclipse SUMO GUI Version 1.7.0
+<!-- generated on 10/14/20 10:52:50 by Eclipse SUMO GUI Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="./scenario/sumodata/shihuxilu.net.xml"/>
-        <route-files value="./scenario/sumodata/shihuxilu_flow.xml"/>
-        <additional-files value="./scenario/sumodata/detector.add.xml"/>
+        <net-file value="./scenario/sumodata/shihuxilu_add.net.xml"/>
+        <route-files value="./scenario/sumodata/shihuxilu_add_flow.xml"/>
+        <additional-files value="./scenario/sumodata/detector_add.add.xml"/>
     </input>
 
     <time>
@@ -23,7 +23,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="62873"/>
+        <remote-port value="60576"/>
     </traci_server>
 
     <gui_only>

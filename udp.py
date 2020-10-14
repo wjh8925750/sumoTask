@@ -1,6 +1,35 @@
 import socket
 
 
+
+class UDP_Client:
+    def __init__(self, ADDR_List, queue):
+        self.ADDR_List = ADDR_List
+        self.udpCliSock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        self.queue = queue
+
+
+    def send(self, sendinfo):
+        self.udpCliSock.sendto(sendinfo, self.ADDR_List)
+
+    def run(self):
+        while True:
+            if not self.queue.empty():
+                sendinfo = self.queue.get()
+                if isinstance(sendinfo, str):
+                    self.send(str(sendinfo).encode())
+                else:
+                    self.send(sendinfo)
+
+
+
+
+
+
+
+
+
+
 class UDP_Server:
 
     def __init__(self, port, queue):

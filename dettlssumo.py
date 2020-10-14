@@ -27,11 +27,11 @@ class SUMO:
 
     def simulation(self):
         while True:
-            for vec_id in traci.vehicle.getIDList():
-
-                #订阅车辆信息：坐标，角度，车辆类型，颜色，速度
-                traci.vehicle.subscribe(str(vec_id),
-                                        (tc.VAR_POSITION, tc.VAR_ANGLE, tc.VAR_TYPE, tc.VAR_COLOR, tc.VAR_SPEED))
+            # for vec_id in traci.vehicle.getIDList():
+            #
+            #     #订阅车辆信息：坐标，角度，车辆类型，颜色，速度
+            #     traci.vehicle.subscribe(str(vec_id),
+            #                             (tc.VAR_POSITION, tc.VAR_ANGLE, tc.VAR_TYPE, tc.VAR_COLOR, tc.VAR_SPEED))
 
             traci.simulationStep()                 #开始切帧
             # loopdata = traci.inductionloop.getInductionLoopStat()
@@ -39,23 +39,22 @@ class SUMO:
             # cross_data = [loopdata, lanedata]
             # print(cross_data)
 
-
-
-
             self.frame+=1                             #步长+1
             if not self.inductionloopid == '##':
                 temp = traci.inductionloop.getContextSubscriptionResults(self.inductionloopid)
+                print("当来车时：", temp)
+                queuedata.det_queue.put(temp)
                 #print(temp)             ##此处打印检测器是否检测到车辆的信息
 
-                for vec_id in traci.vehicle.getIDList():
-                    dic = traci.vehicle.getSubscriptionResults(vec_id)
-                    print(dic)           ##这里打印的是之前车辆订阅的信息：坐标，角度，车辆类型，颜色，速度
-                    if dic:
-                        #print(dic[66])
-                        x,y = dic[66]
-                        lon, lat = traci.simulation.convertGeo(x,y)
+                # for vec_id in traci.vehicle.getIDList():
+                #     dic = traci.vehicle.getSubscriptionResults(vec_id)
+                #     print(dic)           ##这里打印的是之前车辆订阅的信息：坐标，角度，车辆类型，颜色，速度
+                #     if dic:
+                #         #print(dic[66])
+                #         x,y = dic[66]
+                #         lon, lat = traci.simulation.convertGeo(x,y)
                         #print(lon,lat)
-                queuedata.det_queue.put(temp)
+
 
             q_size = queuedata.ryg_queue.qsize()
             while q_size > 0:

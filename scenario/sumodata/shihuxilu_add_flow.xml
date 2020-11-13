@@ -1,0 +1,48 @@
+
+
+
+
+
+<routes>
+
+	<vType id = "busNTS1" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="2.5" maxSpeed="8" guiShape="bus"/>
+<!--	<vType id = "busNTS2" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="2.5" maxSpeed="25" guiShape="bus"/>-->
+<!--	<vType id = "busNTS3" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="2.5" maxSpeed="25" guiShape="bus"/>-->
+<!--	<vType id = "busNTS4" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="2.5" maxSpeed="25" guiShape="bus"/>-->
+
+	<route id="right" edges="lane1 lane2" />
+
+
+
+<!--	<vehicle id="nts_1" type="busNTS1" from="gneE2" to="gneE1" depart="10" color="1,0,0"/>-->
+<!--	<vehicle id="nts_2" type="busNTS1" from="-gneE1" to="-gneE2" depart="12" color="1,0,0"/>-->
+	<vehicle id="nts_1" type="busNTS1" route="right" depart="1" color="1,1,0"/>
+	<vehicle id="nts_2" type="busNTS1" route="right" depart="2" color="1,0,1"/>
+	<vehicle id="nts_3" type="busNTS1" route="right" depart="3" color="1,0,0"/>
+	<vehicle id="nts_4" type="busNTS1" route="right" depart="3" color="1,0,0"/>
+	<vehicle id="nts_5" type="busNTS1" route="right" depart="1" color="1,0,0"/>
+	<vehicle id="nts_6" type="busNTS1" route="right" depart="1" color="1,0,0"/>
+	<vehicle id="nts_7" type="busNTS1" route="right" depart="4" color="1,0,0"/>
+	<vehicle id="nts_8" type="busNTS1" route="right" depart="1" color="1,0,0"/>
+	<vehicle id="nts_9" type="busNTS1" route="right" depart="2" color="1,0,0"/>
+
+<!--    <flow id="NTS" from="gneE2" to="gneE1" begin="0" end="7200" probability="0.02"/>-->
+<!--    <flow id="NTW" from="gneE2" to="-gneE0" begin="0" end="7200" probability="0.02"/>-->
+<!--	<flow id="NTE" from="gneE2" to="gneE3" begin="0" end="7200" probability="0.02"/>-->
+
+
+<!--	<flow id="STN" from="-gneE1" to="-gneE2" begin="0" end="7200" probability="0.02"/>-->
+<!--    <flow id="STW" from="-gneE1" to="-gneE0" begin="0" end="7200" probability="0.02"/>-->
+<!--	<flow id="STE" from="-gneE1" to="gneE3" begin="0" end="7200" probability="0.02"/>-->
+
+
+
+<!--	<flow id="WTN" from="gneE0" to="-gneE2" begin="0" end="7200" probability="0.02"/>-->
+<!--    <flow id="WTS" from="gneE0" to="gneE1" begin="0" end="7200" probability="0.02"/>-->
+<!--	<flow id="WTE" from="gneE0" to="gneE3" begin="0" end="7200" probability="0.02"/>-->
+
+
+<!--	<flow id="ETN" from="-gneE3" to="-gneE2" begin="0" end="7200" probability="0.02"/>-->
+<!--    <flow id="ETS" from="-gneE3" to="gneE1" begin="0" end="7200" probability="0.02"/>-->
+<!--	<flow id="ETW" from="-gneE3" to="-gneE0" begin="0" end="7200" probability="0.02"/>-->
+</routes>

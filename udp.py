@@ -7,6 +7,7 @@ class UDP_Client:
         self.ADDR_List = ADDR_List
         self.udpCliSock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.queue = queue
+        print(ADDR_List)
 
 
     def send(self, sendinfo):
@@ -31,7 +32,6 @@ class UDP_Client:
 
 
 class UDP_Server:
-
     def __init__(self, port, queue):
         print("2、udp服务器初始化")
         self.port = port

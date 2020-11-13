@@ -20,13 +20,17 @@
 
 # SUMO相关配置
 sumocfg = ''  # SUMO配置文件
-steplength = 0  # 仿真步长 s
+steplength = 0.1  # 仿真步长 s
 sumoterminals = "3"
-cinductionloopid = ''  # 路网中心检测器id, 用于订阅检测器数据
+cinductionloopid = 'e1Detector_-10210557_0_437'  # 路网中心检测器id, 用于订阅检测器数据
+cinlaneid = '10639486#10_0'
 radius = 0  # 订阅范围半径
 
 # 接收信号灯数据的UDP端口
 tlsport = 0
+# agentserviceip
+fso_addr_list = ("10.65.3.63", 31003)
+
 
 #######################################################
 # 仿真路网相关信息

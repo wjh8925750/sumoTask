@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/18/20 20:39:01 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\sumoProject\gitPull1\sumoFso\scenario\sumodata\pudong100.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\sumoProject\gitPull1\sumoFso\scenario\sumodata\pudong100.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\sumoProject\gitPull1\sumoFso\scenario\sumodata\additional.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="e1Detector_-499430058#2_0_18" lane="-499430058#2_0" pos="271.22" freq="900.00" file="e1Detector_-499430058#2_0_0.xml"/>
+    <e1Detector id="e1Detector_-505775986#0_0_8" lane="-505775986#0_0" pos="25.52" freq="900.00" file="e1Detector_-505775986#0_0_8.xml"/>
+    <e1Detector id="e1Detector_-559962238#0_0_5" lane="-559962238#0_0" pos="142.92" freq="900.00" file="e1Detector_-559962238#0_0_5.xml"/>
+    <e1Detector id="e1Detector_1" lane="-47280266#1_1" pos="966.61" freq="900.00" file="e1Detector_1.xml"/>
+    <e1Detector id="e1Detector_10360980#4_0_15" lane="10360980#4_0" pos="456.70" freq="900.00" file="e1Detector_10360980#4_0_15.xml"/>
+    <e1Detector id="e1Detector_10360980#4_1_16" lane="10360980#4_1" pos="456.62" freq="900.00" file="e1Detector_10360980#4_1_16.xml"/>
+    <e1Detector id="e1Detector_10360980#4_2_17" lane="10360980#4_2" pos="456.98" freq="900.00" file="e1Detector_10360980#4_2_17.xml"/>
+    <e1Detector id="e1Detector_10360980#4_3_18" lane="10360980#4_3" pos="455.77" freq="900.00" file="e1Detector_10360980#4_3_18.xml"/>
+    <e1Detector id="e1Detector_10632113#5_2_3" lane="10632113#5_2" pos="440.81" freq="900.00" file="e1Detector_10632113#5_2_3.xml"/>
+    <e1Detector id="e1Detector_10632113#5_2_800" lane="13025704#3_2" pos="246.90" freq="900.00" file="e1Detector_10632113#5_2_800.xml"/>
+    <e1Detector id="e1Detector_10639462_0_13" lane="10639462_0" pos="73.04" freq="900.00" file="e1Detector_10639462_0_13.xml"/>
+    <e1Detector id="e1Detector_10689621#1_3_7" lane="10689621#1_3" pos="336.75" freq="900.00" file="e1Detector_10689621#1_3_7.xml"/>
+    <e1Detector id="e1Detector_10692866#1_2_14" lane="10692866#1_2" pos="214.32" freq="900.00" file="e1Detector_10692866#1_2_14.xml"/>
+    <e1Detector id="e1Detector_10692876#9_2_19" lane="10692876#9_2" pos="99.25" freq="900.00" file="e1Detector_10692876#9_2_19.xml"/>
+    <e1Detector id="e1Detector_39149255#3_2_6" lane="39149255#3_2" pos="261.72" freq="900.00" file="e1Detector_39149255#3_2_6.xml"/>
+    <e1Detector id="e1Detector_47280266#1_1_1" lane="47280266#1_1" pos="965.47" freq="900.00" file="e1Detector_47280266#1_1_1.xml"/>
+    <e1Detector id="e1Detector_47323592#21_0_9" lane="47323592#21_0" pos="129.28" freq="900.00" file="e1Detector_47323592#21_0_9.xml"/>
+    <e1Detector id="e1Detector_47323592#21_1_10" lane="47323592#21_1" pos="129.30" freq="900.00" file="e1Detector_47323592#21_1_10.xml"/>
+    <e1Detector id="e1Detector_47323592#21_2_11" lane="47323592#21_2" pos="128.95" freq="900.00" file="e1Detector_47323592#21_2_11.xml"/>
+    <e1Detector id="e1Detector_47323592#21_3_12" lane="47323592#21_3" pos="128.60" freq="900.00" file="e1Detector_47323592#21_3_12.xml"/>
+</additional>

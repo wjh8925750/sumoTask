@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/14/20 15:26:57 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\sumoProject\gitPull1\sumoTask\scenario\sumodata\shihuxilu_add.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\sumoProject\gitPull1\sumoTask\scenario\sumodata\shihuxilu_add.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\sumoProject\gitPull1\sumoTask\scenario\sumodata\detector_add.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="gen1_1" lane="lane1_0" pos="225.56" freq="900.00" file="e1Detector_lane1_0_0.xml"/>
+    <e1Detector id="gen1_10" lane="449708369#0_1" pos="572.98" freq="900.00" file="e1Detector_449708369#0_1_8.xml"/>
+    <e1Detector id="gen1_11" lane="449708369#0_2" pos="573.07" freq="900.00" file="e1Detector_449708369#0_2_7.xml"/>
+    <e1Detector id="gen1_12" lane="449708369#0_3" pos="572.78" freq="900.00" file="e1Detector_449708369#0_3_6.xml"/>
+    <e1Detector id="gen1_2" lane="lane1_1" pos="225.49" freq="900.00" file="e1Detector_lane1_1_1.xml"/>
+    <e1Detector id="gen1_3" lane="449708370#0.375_0" pos="117.48" freq="900.00" file="e1Detector_449708370#0.375_0_2.xml"/>
+    <e1Detector id="gen1_4" lane="449708370#0.375_1" pos="117.46" freq="900.00" file="e1Detector_449708370#0.375_1_3.xml"/>
+    <e1Detector id="gen1_5" lane="449708370#0.375_2" pos="117.91" freq="900.00" file="e1Detector_449708370#0.375_2_4.xml"/>
+    <e1Detector id="gen1_6" lane="449708370#0.375_3" pos="117.83" freq="900.00" file="e1Detector_449708370#0.375_3_5.xml"/>
+    <e1Detector id="gen1_7" lane="-449708064#2.1022_0" pos="254.94" freq="900.00" file="e1Detector_-449708064#2.1022_0_11.xml"/>
+    <e1Detector id="gen1_8" lane="-449708064#2.1022_1" pos="254.99" freq="900.00" file="e1Detector_-449708064#2.1022_1_10.xml"/>
+    <e1Detector id="gen1_9" lane="449708369#0_0" pos="572.89" freq="900.00" file="e1Detector_449708369#0_0_9.xml"/>
+    <e1Detector id="gen2_1" lane="449708066#0.454_0" pos="83.35" freq="900.00" file="e1Detector_449708066#0.454_0_12.xml"/>
+    <e1Detector id="gen2_10" lane="834077718#0.161_2" pos="68.89" freq="900.00" file="e1Detector_834077718#0.161_2_21.xml"/>
+    <e1Detector id="gen2_11" lane="834077718#0.161_3" pos="68.60" freq="900.00" file="e1Detector_834077718#0.161_3_22.xml"/>
+    <e1Detector id="gen2_12" lane="449708369#1.391_0" pos="101.99" freq="900.00" file="e1Detector_449708369#1.391_0_23.xml"/>
+    <e1Detector id="gen2_13" lane="449708369#1.391_1" pos="102.47" freq="900.00" file="e1Detector_449708369#1.391_1_24.xml"/>
+    <e1Detector id="gen2_14" lane="449708369#1.391_2" pos="102.66" freq="900.00" file="e1Detector_449708369#1.391_2_25.xml"/>
+    <e1Detector id="gen2_15" lane="449708369#1.391_3" pos="102.07" freq="900.00" file="e1Detector_449708369#1.391_3_26.xml"/>
+    <e1Detector id="gen2_2" lane="449708066#0.454_1" pos="83.67" freq="900.00" file="e1Detector_449708066#0.454_1_13.xml"/>
+    <e1Detector id="gen2_3" lane="449708066#0.454_2" pos="83.59" freq="900.00" file="e1Detector_449708066#0.454_2_14.xml"/>
+    <e1Detector id="gen2_4" lane="449708066#0.454_3" pos="83.11" freq="900.00" file="e1Detector_449708066#0.454_3_15.xml"/>
+    <e1Detector id="gen2_5" lane="832162248#0.882_0" pos="29.76" freq="900.00" file="e1Detector_832162248#0.882_0_16.xml"/>
+    <e1Detector id="gen2_6" lane="832162248#0.882_1" pos="30.08" freq="900.00" file="e1Detector_832162248#0.882_1_17.xml"/>
+    <e1Detector id="gen2_7" lane="832162248#0.882_2" pos="29.81" freq="900.00" file="e1Detector_832162248#0.882_2_18.xml"/>
+    <e1Detector id="gen2_8" lane="834077718#0.161_0" pos="68.64" freq="900.00" file="e1Detector_834077718#0.161_0_19.xml"/>
+    <e1Detector id="gen2_9" lane="834077718#0.161_1" pos="68.83" freq="900.00" file="e1Detector_834077718#0.161_1_20.xml"/>
+</additional>
